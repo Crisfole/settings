@@ -1,0 +1,35 @@
+[core]
+	autocrlf = true
+	editor = "'c:/program files/sublime text 2/sublime_text.exe' -w"
+	whitespace = trailing-space,space-before-tab,cr-at-eol
+	excludesfile = c:/Users/CPFOHL/.gitignore
+[user]
+	name = Christopher Pfohl
+	email = Christopher.Pfohl@gmail.com
+[merge]
+	tool = WinMerge
+[diff]
+	guitool = kdiff3
+[difftool "kdiff3"]
+	path = c:/Program Files (x86)/KDiff3/kdiff3.exe
+[mergetool "kdiff3"]
+	path = c:/Program Files (x86)/KDiff3/kdiff3.exe
+[mergetool "WinMerge"]
+	path = c:/Program Files (x86)/winmerge/winmergeu.exe
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[color]
+	ui = true
+[color "branch"]
+       current = yellow reverse
+       local = yellow
+       remote = green
+[color "diff"]
+       meta = yellow bold
+       frag = magenta bold
+       old = red bold
+       new = green bold
+[color "status"]
+       added = yellow bold
+       changed = green bold
+       untracked = cyan bold
